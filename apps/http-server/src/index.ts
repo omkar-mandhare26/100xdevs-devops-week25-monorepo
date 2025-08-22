@@ -40,6 +40,6 @@ app.post("/signin", async (req, res) => {
     res.json({ message: "Sigin successful" });
 })
 
-app.listen(3000, () => {
-    console.log("HTTP server running on PORT 3000");
+app.listen(3002, () => {
+    console.log("HTTP server running on PORT 3002");
 });
